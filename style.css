@@ -1,0 +1,17 @@
+body .header {
+    background-color: blue;
+    color: white;
+}
+body .container h1.title {
+    color: yellow;
+    border-bottom: blue;
+}
+body .bg {
+    background: #b2b300;
+}
+div.main {
+    background: yellow;
+}
+div.test {
+    color: blue;
+}

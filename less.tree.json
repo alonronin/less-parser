@@ -1,0 +1,768 @@
+{
+  "selectors": null,
+  "rules": [
+    {
+      "name": "@color",
+      "value": {
+        "value": [
+          {
+            "value": [
+              {
+                "rgb": [
+                  255,
+                  255,
+                  0
+                ],
+                "alpha": 1,
+                "value": "yellow",
+                "visibilityBlocks": 0,
+                "nodeVisible": true
+              }
+            ]
+          }
+        ]
+      },
+      "important": "",
+      "merge": false,
+      "index": 0,
+      "currentFileInfo": {
+        "filename": "input",
+        "rootpath": "",
+        "currentDirectory": "",
+        "entryPath": "",
+        "rootFilename": "input"
+      },
+      "inline": false,
+      "variable": true
+    },
+    {
+      "name": "@brand",
+      "value": {
+        "value": [
+          {
+            "value": [
+              {
+                "rgb": [
+                  0,
+                  0,
+                  255
+                ],
+                "alpha": 1,
+                "value": "blue",
+                "visibilityBlocks": 0,
+                "nodeVisible": true
+              }
+            ]
+          }
+        ]
+      },
+      "important": "",
+      "merge": false,
+      "index": 16,
+      "currentFileInfo": {
+        "filename": "input",
+        "rootpath": "",
+        "currentDirectory": "",
+        "entryPath": "",
+        "rootFilename": "input"
+      },
+      "inline": false,
+      "variable": true
+    },
+    {
+      "selectors": [
+        {
+          "elements": [
+            {
+              "combinator": {
+                "value": " ",
+                "emptyOrWhitespace": true,
+                "visibilityBlocks": 0,
+                "nodeVisible": true
+              },
+              "value": "body",
+              "index": 31,
+              "currentFileInfo": {
+                "filename": "input",
+                "rootpath": "",
+                "currentDirectory": "",
+                "entryPath": "",
+                "rootFilename": "input"
+              }
+            }
+          ],
+          "currentFileInfo": {
+            "filename": "input",
+            "rootpath": "",
+            "currentDirectory": "",
+            "entryPath": "",
+            "rootFilename": "input"
+          },
+          "evaldCondition": true
+        }
+      ],
+      "rules": [
+        {
+          "selectors": [
+            {
+              "elements": [
+                {
+                  "combinator": {
+                    "value": " ",
+                    "emptyOrWhitespace": true,
+                    "visibilityBlocks": 0,
+                    "nodeVisible": true
+                  },
+                  "value": ".header",
+                  "index": 40,
+                  "currentFileInfo": {
+                    "filename": "input",
+                    "rootpath": "",
+                    "currentDirectory": "",
+                    "entryPath": "",
+                    "rootFilename": "input"
+                  }
+                }
+              ],
+              "currentFileInfo": {
+                "filename": "input",
+                "rootpath": "",
+                "currentDirectory": "",
+                "entryPath": "",
+                "rootFilename": "input"
+              },
+              "evaldCondition": true
+            }
+          ],
+          "rules": [
+            {
+              "name": [
+                {
+                  "value": "background-color"
+                }
+              ],
+              "value": {
+                "value": [
+                  {
+                    "value": [
+                      {
+                        "name": "@brand",
+                        "index": 72,
+                        "currentFileInfo": {
+                          "filename": "input",
+                          "rootpath": "",
+                          "currentDirectory": "",
+                          "entryPath": "",
+                          "rootFilename": "input"
+                        },
+                        "evaluating": false
+                      }
+                    ]
+                  }
+                ]
+              },
+              "important": "",
+              "merge": false,
+              "index": 54,
+              "currentFileInfo": {
+                "filename": "input",
+                "rootpath": "",
+                "currentDirectory": "",
+                "entryPath": "",
+                "rootFilename": "input"
+              },
+              "inline": false
+            },
+            {
+              "name": [
+                {
+                  "value": "color"
+                }
+              ],
+              "value": {
+                "value": "white",
+                "rulesetLike": false
+              },
+              "important": "",
+              "merge": false,
+              "index": 84,
+              "currentFileInfo": {
+                "filename": "input",
+                "rootpath": "",
+                "currentDirectory": "",
+                "entryPath": "",
+                "rootFilename": "input"
+              },
+              "inline": false
+            }
+          ],
+          "_lookups": {}
+        },
+        {
+          "selectors": [
+            {
+              "elements": [
+                {
+                  "combinator": {
+                    "value": " ",
+                    "emptyOrWhitespace": true,
+                    "visibilityBlocks": 0,
+                    "nodeVisible": true
+                  },
+                  "value": ".container",
+                  "index": 105,
+                  "currentFileInfo": {
+                    "filename": "input",
+                    "rootpath": "",
+                    "currentDirectory": "",
+                    "entryPath": "",
+                    "rootFilename": "input"
+                  }
+                }
+              ],
+              "currentFileInfo": {
+                "filename": "input",
+                "rootpath": "",
+                "currentDirectory": "",
+                "entryPath": "",
+                "rootFilename": "input"
+              },
+              "evaldCondition": true
+            }
+          ],
+          "rules": [
+            {
+              "selectors": [
+                {
+                  "elements": [
+                    {
+                      "combinator": {
+                        "value": " ",
+                        "emptyOrWhitespace": true,
+                        "visibilityBlocks": 0,
+                        "nodeVisible": true
+                      },
+                      "value": "h1",
+                      "index": 122,
+                      "currentFileInfo": {
+                        "filename": "input",
+                        "rootpath": "",
+                        "currentDirectory": "",
+                        "entryPath": "",
+                        "rootFilename": "input"
+                      }
+                    }
+                  ],
+                  "currentFileInfo": {
+                    "filename": "input",
+                    "rootpath": "",
+                    "currentDirectory": "",
+                    "entryPath": "",
+                    "rootFilename": "input"
+                  },
+                  "evaldCondition": true
+                }
+              ],
+              "rules": [
+                {
+                  "selectors": [
+                    {
+                      "elements": [
+                        {
+                          "combinator": {
+                            "value": " ",
+                            "emptyOrWhitespace": true,
+                            "visibilityBlocks": 0,
+                            "nodeVisible": true
+                          },
+                          "value": "&",
+                          "index": 133,
+                          "currentFileInfo": {
+                            "filename": "input",
+                            "rootpath": "",
+                            "currentDirectory": "",
+                            "entryPath": "",
+                            "rootFilename": "input"
+                          }
+                        },
+                        {
+                          "combinator": {
+                            "value": "",
+                            "emptyOrWhitespace": true,
+                            "visibilityBlocks": 0,
+                            "nodeVisible": true
+                          },
+                          "value": ".title",
+                          "index": 134,
+                          "currentFileInfo": {
+                            "filename": "input",
+                            "rootpath": "",
+                            "currentDirectory": "",
+                            "entryPath": "",
+                            "rootFilename": "input"
+                          }
+                        }
+                      ],
+                      "currentFileInfo": {
+                        "filename": "input",
+                        "rootpath": "",
+                        "currentDirectory": "",
+                        "entryPath": "",
+                        "rootFilename": "input"
+                      },
+                      "evaldCondition": true
+                    }
+                  ],
+                  "rules": [
+                    {
+                      "name": [
+                        {
+                          "value": "color"
+                        }
+                      ],
+                      "value": {
+                        "value": [
+                          {
+                            "value": [
+                              {
+                                "name": "@color",
+                                "index": 158,
+                                "currentFileInfo": {
+                                  "filename": "input",
+                                  "rootpath": "",
+                                  "currentDirectory": "",
+                                  "entryPath": "",
+                                  "rootFilename": "input"
+                                },
+                                "evaluating": false
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      "important": "",
+                      "merge": false,
+                      "index": 151,
+                      "currentFileInfo": {
+                        "filename": "input",
+                        "rootpath": "",
+                        "currentDirectory": "",
+                        "entryPath": "",
+                        "rootFilename": "input"
+                      },
+                      "inline": false
+                    },
+                    {
+                      "name": [
+                        {
+                          "value": "border-bottom"
+                        }
+                      ],
+                      "value": {
+                        "value": [
+                          {
+                            "value": [
+                              {
+                                "name": "@brand",
+                                "index": 189,
+                                "currentFileInfo": {
+                                  "filename": "input",
+                                  "rootpath": "",
+                                  "currentDirectory": "",
+                                  "entryPath": "",
+                                  "rootFilename": "input"
+                                },
+                                "evaluating": false
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      "important": "",
+                      "merge": false,
+                      "index": 174,
+                      "currentFileInfo": {
+                        "filename": "input",
+                        "rootpath": "",
+                        "currentDirectory": "",
+                        "entryPath": "",
+                        "rootFilename": "input"
+                      },
+                      "inline": false
+                    }
+                  ],
+                  "_lookups": {}
+                }
+              ],
+              "_lookups": {}
+            }
+          ],
+          "_lookups": {}
+        },
+        {
+          "selectors": [
+            {
+              "elements": [
+                {
+                  "combinator": {
+                    "value": " ",
+                    "emptyOrWhitespace": true,
+                    "visibilityBlocks": 0,
+                    "nodeVisible": true
+                  },
+                  "value": ".bg",
+                  "index": 218,
+                  "currentFileInfo": {
+                    "filename": "input",
+                    "rootpath": "",
+                    "currentDirectory": "",
+                    "entryPath": "",
+                    "rootFilename": "input"
+                  }
+                }
+              ],
+              "currentFileInfo": {
+                "filename": "input",
+                "rootpath": "",
+                "currentDirectory": "",
+                "entryPath": "",
+                "rootFilename": "input"
+              },
+              "evaldCondition": true
+            }
+          ],
+          "rules": [
+            {
+              "name": [
+                {
+                  "value": "background"
+                }
+              ],
+              "value": {
+                "value": [
+                  {
+                    "value": [
+                      {
+                        "name": "darken",
+                        "args": [
+                          {
+                            "value": [
+                              {
+                                "name": "@color",
+                                "index": 247,
+                                "currentFileInfo": {
+                                  "filename": "input",
+                                  "rootpath": "",
+                                  "currentDirectory": "",
+                                  "entryPath": "",
+                                  "rootFilename": "input"
+                                },
+                                "evaluating": false
+                              }
+                            ]
+                          },
+                          {
+                            "value": [
+                              {
+                                "value": 15,
+                                "unit": {
+                                  "numerator": [
+                                    "%"
+                                  ],
+                                  "denominator": [],
+                                  "backupUnit": "%"
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "index": 240,
+                        "currentFileInfo": {
+                          "filename": "input",
+                          "rootpath": "",
+                          "currentDirectory": "",
+                          "entryPath": "",
+                          "rootFilename": "input"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              "important": "",
+              "merge": false,
+              "index": 228,
+              "currentFileInfo": {
+                "filename": "input",
+                "rootpath": "",
+                "currentDirectory": "",
+                "entryPath": "",
+                "rootFilename": "input"
+              },
+              "inline": false
+            }
+          ],
+          "_lookups": {}
+        }
+      ],
+      "_lookups": {}
+    },
+    {
+      "options": {},
+      "index": 268,
+      "path": {
+        "escaped": false,
+        "value": "section",
+        "quote": "\"",
+        "index": 276,
+        "currentFileInfo": {
+          "filename": "input",
+          "rootpath": "",
+          "currentDirectory": "",
+          "entryPath": "",
+          "rootFilename": "input"
+        }
+      },
+      "features": null,
+      "currentFileInfo": {
+        "filename": "input",
+        "rootpath": "",
+        "currentDirectory": "",
+        "entryPath": "",
+        "rootFilename": "input"
+      },
+      "visibilityBlocks": 0,
+      "skip": false,
+      "root": {
+        "selectors": null,
+        "rules": [
+          {
+            "selectors": [
+              {
+                "elements": [
+                  {
+                    "combinator": {
+                      "value": "",
+                      "emptyOrWhitespace": true,
+                      "visibilityBlocks": 0,
+                      "nodeVisible": true
+                    },
+                    "value": "div",
+                    "index": 0,
+                    "currentFileInfo": {
+                      "entryPath": "",
+                      "rootpath": "",
+                      "rootFilename": "input",
+                      "currentDirectory": "",
+                      "filename": "section.less"
+                    }
+                  }
+                ],
+                "currentFileInfo": {
+                  "entryPath": "",
+                  "rootpath": "",
+                  "rootFilename": "input",
+                  "currentDirectory": "",
+                  "filename": "section.less"
+                },
+                "evaldCondition": true
+              }
+            ],
+            "rules": [
+              {
+                "selectors": [
+                  {
+                    "elements": [
+                      {
+                        "combinator": {
+                          "value": " ",
+                          "emptyOrWhitespace": true,
+                          "visibilityBlocks": 0,
+                          "nodeVisible": true
+                        },
+                        "value": "&",
+                        "index": 8,
+                        "currentFileInfo": {
+                          "entryPath": "",
+                          "rootpath": "",
+                          "rootFilename": "input",
+                          "currentDirectory": "",
+                          "filename": "section.less"
+                        }
+                      },
+                      {
+                        "combinator": {
+                          "value": "",
+                          "emptyOrWhitespace": true,
+                          "visibilityBlocks": 0,
+                          "nodeVisible": true
+                        },
+                        "value": ".main",
+                        "index": 9,
+                        "currentFileInfo": {
+                          "entryPath": "",
+                          "rootpath": "",
+                          "rootFilename": "input",
+                          "currentDirectory": "",
+                          "filename": "section.less"
+                        }
+                      }
+                    ],
+                    "currentFileInfo": {
+                      "entryPath": "",
+                      "rootpath": "",
+                      "rootFilename": "input",
+                      "currentDirectory": "",
+                      "filename": "section.less"
+                    },
+                    "evaldCondition": true
+                  }
+                ],
+                "rules": [
+                  {
+                    "name": [
+                      {
+                        "value": "background"
+                      }
+                    ],
+                    "value": {
+                      "value": [
+                        {
+                          "value": [
+                            {
+                              "name": "@color",
+                              "index": 33,
+                              "currentFileInfo": {
+                                "entryPath": "",
+                                "rootpath": "",
+                                "rootFilename": "input",
+                                "currentDirectory": "",
+                                "filename": "section.less"
+                              },
+                              "evaluating": false
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    "important": "",
+                    "merge": false,
+                    "index": 21,
+                    "currentFileInfo": {
+                      "entryPath": "",
+                      "rootpath": "",
+                      "rootFilename": "input",
+                      "currentDirectory": "",
+                      "filename": "section.less"
+                    },
+                    "inline": false
+                  }
+                ],
+                "_lookups": {}
+              },
+              {
+                "selectors": [
+                  {
+                    "elements": [
+                      {
+                        "combinator": {
+                          "value": " ",
+                          "emptyOrWhitespace": true,
+                          "visibilityBlocks": 0,
+                          "nodeVisible": true
+                        },
+                        "value": "&",
+                        "index": 48,
+                        "currentFileInfo": {
+                          "entryPath": "",
+                          "rootpath": "",
+                          "rootFilename": "input",
+                          "currentDirectory": "",
+                          "filename": "section.less"
+                        }
+                      },
+                      {
+                        "combinator": {
+                          "value": "",
+                          "emptyOrWhitespace": true,
+                          "visibilityBlocks": 0,
+                          "nodeVisible": true
+                        },
+                        "value": ".test",
+                        "index": 49,
+                        "currentFileInfo": {
+                          "entryPath": "",
+                          "rootpath": "",
+                          "rootFilename": "input",
+                          "currentDirectory": "",
+                          "filename": "section.less"
+                        }
+                      }
+                    ],
+                    "currentFileInfo": {
+                      "entryPath": "",
+                      "rootpath": "",
+                      "rootFilename": "input",
+                      "currentDirectory": "",
+                      "filename": "section.less"
+                    },
+                    "evaldCondition": true
+                  }
+                ],
+                "rules": [
+                  {
+                    "name": [
+                      {
+                        "value": "color"
+                      }
+                    ],
+                    "value": {
+                      "value": [
+                        {
+                          "value": [
+                            {
+                              "name": "@brand",
+                              "index": 67,
+                              "currentFileInfo": {
+                                "entryPath": "",
+                                "rootpath": "",
+                                "rootFilename": "input",
+                                "currentDirectory": "",
+                                "filename": "section.less"
+                              },
+                              "evaluating": false
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    "important": "",
+                    "merge": false,
+                    "index": 60,
+                    "currentFileInfo": {
+                      "entryPath": "",
+                      "rootpath": "",
+                      "rootFilename": "input",
+                      "currentDirectory": "",
+                      "filename": "section.less"
+                    },
+                    "inline": false
+                  }
+                ],
+                "_lookups": {}
+              }
+            ],
+            "_lookups": {}
+          }
+        ],
+        "_lookups": {},
+        "root": true,
+        "firstRoot": true
+      },
+      "importedFilename": "section.less"
+    }
+  ],
+  "_lookups": {},
+  "root": true,
+  "firstRoot": true
+}

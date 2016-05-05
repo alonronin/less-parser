@@ -1,0 +1,24 @@
+@color: yellow;
+@brand: blue;
+
+body {
+  .header {
+    background-color: @brand;
+    color: white;
+  }
+
+  .container {
+    h1 {
+      &.title {
+        color: @color;
+        border-bottom: @brand;
+      }
+    }
+  }
+
+  .bg {
+    background: darken(@color, 15%);
+  }
+}
+
+@import "section";

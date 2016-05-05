@@ -1,0 +1,21 @@
+@brand: blue;
+
+body {
+  .header {
+    background-color: @brand;
+  }
+
+  .container {
+    h1 {
+      &.title {
+        border-bottom: @brand;
+      }
+    }
+  }
+}
+
+div {
+  &.test{
+    color: @brand;
+  }
+}
